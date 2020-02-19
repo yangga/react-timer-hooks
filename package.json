@@ -1,0 +1,38 @@
+{
+  "name": "react-timer-hooks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangga/react-timer-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "time",
+    "timer",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangga/react-timer-hooks/issues"
+  },
+  "homepage": "https://github.com/yangga/react-timer-hooks#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.2",
+    "@types/react": ">=16.0.0",
+    "react": ">=16.0.0",
+    "react-native": ">=0.60.0",
+    "typescript": "^3.7.5",
+    "typings": "^2.1.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  }
+}
